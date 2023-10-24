@@ -8,7 +8,9 @@
         <meta name="viewport"
         content="width=device-width, initial-scale=1">
         <style>
-        * {box-sizing: border-box}
+        * {
+            box-sizing: border-box
+        }
 
         .container {
             width: 100%;
@@ -22,9 +24,20 @@
             color: white;
         }
 
-        .html width: 90%; background-color: #04AA6D;}
-        .css width: 80%; background-color: #2196F3;}
-        .js width: 65%; background-color: #808080;}
+        .html { 
+            width: 90%; 
+            background-color: #04AA6D;
+        }
+        
+        .css {
+            width: 80%; 
+            background-color: #2196F3;
+        }
+        
+        .js { 
+            width: 65%; 
+            background-color: #808080;
+        }
     </style>
     </head>
     <body>
@@ -32,10 +45,9 @@
     <h1>My Skills</h1>
 
     <p>HTML</p>
-    <Div CLASS=""CONTAINER">
-        <DIV CLASS=""Skills html">90%
-    </Div>
-    </Div>
+    <div class="container">
+        <div class="Skills html">90%</div>
+    </div>
 
     <p>CSS</p>
     <div class="container">
